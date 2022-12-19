@@ -1,0 +1,31 @@
+Name: Variables Genericas
+
+on:
+  workflow_dispatch:
+
+jobs:
+  show:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar Variables Genericas
+        run:
+          echo "Git Hub Variables" &&
+          echo "Git Hub Action:" &&
+          echo $GITHUB_ACTIONS &&
+          echo "Git Hub Event:" &&
+          echo $GITHUB_EVENT_NAME &&
+          echo "Git Hub Repository:" &&
+          echo $GITHUB_REPOSITORY &&
+          echo "Git Hub Run:" &&
+          echo $GITHUB_RUN_NUMBER &&
+          echo "Git Hub Workflow:" &&
+          echo $GITHUB_WORKFLOW &&
+          echo "Git Hub Workspace:" &&
+          echo $GITHUB_WORKSPACE &&
+          echo "Git Hub Runner Variables" &&
+          echo "Git Hub Runner Name" &&
+          echo $RUNNER_NAME &&
+          echo "Git Hub Runner OS" &&
+          echo $RUNNER_OS &&
+          echo "Git Hub Runner Architecture" &&
+          echo $RUNNER_ARCH
