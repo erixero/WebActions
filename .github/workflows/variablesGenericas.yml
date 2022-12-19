@@ -1,4 +1,6 @@
-Name: Variables Genericas
+# This workflow Print on Screen the Global Variables
+
+name: Variables Genericas
 
 on:
   workflow_dispatch:
