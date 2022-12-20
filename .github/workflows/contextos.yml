@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  show:
+  coptexto:
     strategy:
       context:
         version: [1.0.1, 2.0.1]
