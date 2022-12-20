@@ -1,0 +1,22 @@
+Variables Genericas
+Run details
+Git Hub Variables
+Git Hub Action:
+true
+Git Hub Event:
+workflow_dispatch
+Git Hub Repository:
+erixero/WebActions
+Git Hub Run:
+2
+Git Hub Workflow:
+Variables Genericas
+Git Hub Workspace:
+/home/runner/work/WebActions/WebActions
+Git Hub Runner Variables
+Git Hub Runner Name
+Hosted Agent
+Git Hub Runner OS
+Linux
+Git Hub Runner Architecture
+X64

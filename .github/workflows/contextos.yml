@@ -1,0 +1,20 @@
+# This workflow Print on Screen the Context Variables
+
+name: Variables Contexto
+
+on:
+  workflow_dispatch:
+
+jobs:
+  show:
+    strategy:
+      context:
+        version: [1.0.1, 2.0.1]
+        variable: "context variable"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar Variables Contexto
+        run:
+            echo "Variables de contexto:" &&
+            echo "context.variable" &&
+            echo ${{context.variable}} &&
